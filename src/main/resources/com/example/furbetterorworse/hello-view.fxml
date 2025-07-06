@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.furbetterorworse.HelloController">
+   <children>
+      <ImageView fx:id="bg" fitHeight="675.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../1.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="start" layoutX="345.0" layoutY="304.0" mnemonicParsing="false" onAction="#switchToBackstory" opacity="0.0" prefHeight="111.0" prefWidth="459.0" text="Start" />
+      <Button fx:id="exit" layoutX="345.0" layoutY="430.0" mnemonicParsing="false" onAction="#handleQuitButtonAction" opacity="0.0" prefHeight="111.0" prefWidth="472.0" text="Exit" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.furbetterorworse.HelloController">
+   <children>
+      <ImageView fx:id="bg" fitHeight="675.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../ChooseLInt.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="exit" layoutX="871.0" layoutY="569.0" mnemonicParsing="false" onAction="#uncFirst" opacity="0.0" prefHeight="63.0" prefWidth="187.0" text="Unc" />
+      <Button fx:id="exit1" layoutX="512.0" layoutY="569.0" mnemonicParsing="false" onAction="#pookieFirst" opacity="0.0" prefHeight="63.0" prefWidth="187.0" text="Pookie" />
+      <Button fx:id="exit11" layoutX="162.0" layoutY="569.0" mnemonicParsing="false" onAction="#rizzlyFirst" opacity="0.0" prefHeight="63.0" prefWidth="187.0" text="Rizzly" />
+   </children>
+</AnchorPane>

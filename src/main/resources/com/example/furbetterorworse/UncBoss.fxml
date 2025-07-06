@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.furbetterorworse.BossFights">
+   <children>
+      <ImageView fx:id="bg" fitHeight="675.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../UncBoss.png" />
+         </image>
+      </ImageView>
+      <ProgressBar fx:id="PlayerAura" layoutX="193.0" layoutY="515.0" prefHeight="18.0" prefWidth="285.0" progress="0.38" />
+      <ProgressBar fx:id="EnemyAura" layoutX="870.0" layoutY="515.0" prefHeight="18.0" prefWidth="285.0" progress="0.33" />
+      <Button layoutX="270.0" layoutY="557.0" mnemonicParsing="false" onAction="#Damage" prefHeight="106.0" prefWidth="622.0" text="ATTACK">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

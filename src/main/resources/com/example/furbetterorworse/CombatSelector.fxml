@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="675.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.furbetterorworse.CombatSelectorController">
+   <children>
+      <ImageView fitHeight="675.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../ChooseFinalDate.png" />
+         </image></ImageView>
+      <Button fx:id="RizzlySelect" layoutX="128.0" layoutY="587.0" mnemonicParsing="false" onAction="#RizzlyFinal" opacity="0.0" prefHeight="55.0" prefWidth="156.0" text="Button" />
+      <Button fx:id="PookieSelect" layoutX="427.0" layoutY="587.0" mnemonicParsing="false" onAction="#PookieFinal" opacity="0.0" prefHeight="55.0" prefWidth="156.0" text="Button" />
+      <Button fx:id="UncSelect" layoutX="733.0" layoutY="594.0" mnemonicParsing="false" onAction="#UncFinal" opacity="0.0" prefHeight="55.0" prefWidth="156.0" text="Button" />
+      <Button fx:id="NoneSelect" layoutX="973.0" layoutY="587.0" mnemonicParsing="false" onAction="#NoneFinal" opacity="0.0" prefHeight="55.0" prefWidth="156.0" text="Button" />
+   </children>
+</AnchorPane>
